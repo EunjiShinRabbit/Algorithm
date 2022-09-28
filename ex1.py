@@ -1,1 +1,4 @@
-# 알고리즘 연습은 파이썬으로!
+n, x = map(int, input().split())
+a = list(map(int, input().split()))
+for i in range(n):
+  if a[i] < x: print(a[i], end=" ")
